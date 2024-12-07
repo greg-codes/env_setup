@@ -1,0 +1,20 @@
+name: your_project_name
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Required for IDE connectivity - do not modify these
+  - python=3.12
+  - ipykernel          # required for Jupyter connectivity
+  - spyder-kernels=3.0 # required for Spyder connectivity
+  
+  # Add your project-specific packages below
+  # Examples:
+  - numpy
+  - pandas
+  - matplotlib
+  - pip
+  
+  # If you need packages from pip, add them here
+  - pip:
+    - special-package

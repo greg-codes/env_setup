@@ -1,0 +1,12 @@
+name: jupyter_ide
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - jupyter
+  - jupyterlab
+  - nb_conda_kernels  # for connecting to other environment kernels
+  - jupyter_contrib_nbextensions  # useful extensions
+  - jupyterlab-spellchecker
+  - jupyterlab-git

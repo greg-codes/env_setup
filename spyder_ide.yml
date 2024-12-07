@@ -1,0 +1,9 @@
+name: spyder_ide
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - spyder
+  - ipykernel
+  - nb_conda_kernels  # for connecting to other environment kernels
